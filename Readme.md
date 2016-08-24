@@ -4,7 +4,7 @@
 
 ----
 
-#### *Data on theses and dissertations published in Québec universities in the last 50 years*
+#### *Data on theses and dissertations published in Québec universities in the last 50 years; inspired by [Marcus W. Beck](https://beckmw.wordpress.com/2014/07/15/average-dissertation-and-thesis-length-take-two/)*
 
 ----
 
