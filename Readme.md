@@ -6,6 +6,10 @@
 
 #### *Data on theses and dissertations published in Québec universities in the last 50 years*
 
+----
+
+###### [Pour voir la version originale de ce document en format Jupyter notebook](theses.ipynb).
+
 
 ```python
 %matplotlib inline
