@@ -4,11 +4,7 @@
 
 ----
 
-#### *Data on theses and dissertations published in Québec universities in the last 50 years; inspired by [Marcus W. Beck](https://beckmw.wordpress.com/2014/07/15/average-dissertation-and-thesis-length-take-two/)*
-
-----
-
-###### [Pour voir la version originale de ce document en format Jupyter notebook](theses.ipynb).
+#### *Data on theses and dissertations published in Québec universities in the last 50 years*
 
 
 ```python
@@ -56,10 +52,10 @@ parType.describe()
               50%        226.000000
               75%        303.000000
               max       1578.000000
-    maîtrise  count    43543.000000
-              mean       134.418827
-              std         55.515868
-              min         12.000000
+    maîtrise  count    43541.000000
+              mean       134.424313
+              std         55.511239
+              min         19.000000
               25%         98.000000
               50%        125.000000
               75%        159.000000
@@ -81,7 +77,7 @@ plt.title("Distribution des thèses et mémoires\npar nombre de pages",size=20)
 
 
 
-    <matplotlib.text.Text at 0x11927aeb8>
+    <matplotlib.text.Text at 0x115f7ba20>
 
 
 
@@ -662,10 +658,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x1187c0080>,
+    [<matplotlib.text.Text at 0x1031d7470>,
      (0, 750),
-     <matplotlib.text.Text at 0x1187aaeb8>,
-     <matplotlib.text.Text at 0x11886a080>]
+     <matplotlib.text.Text at 0x10b28deb8>,
+     <matplotlib.text.Text at 0x115a7f1d0>]
 
 
 
@@ -787,10 +783,10 @@ boiteDoc.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x1198db3c8>,
+    [<matplotlib.text.Text at 0x11bd004e0>,
      (0, 750),
-     <matplotlib.text.Text at 0x119b36f60>,
-     <matplotlib.text.Text at 0x1198f3518>]
+     <matplotlib.text.Text at 0x11b936588>,
+     <matplotlib.text.Text at 0x11c0690f0>]
 
 
 
@@ -828,26 +824,26 @@ maitrises.describe()
   <tbody>
     <tr>
       <th>count</th>
-      <td>43543.000000</td>
-      <td>43543.000000</td>
-      <td>43543.000000</td>
+      <td>43541.000000</td>
+      <td>43541.000000</td>
+      <td>43541.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2005.203110</td>
-      <td>134.418827</td>
-      <td>100.836461</td>
+      <td>2005.204244</td>
+      <td>134.424313</td>
+      <td>100.840128</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>9.200822</td>
-      <td>55.515868</td>
-      <td>39.288106</td>
+      <td>9.199370</td>
+      <td>55.511239</td>
+      <td>39.285272</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1965.000000</td>
-      <td>12.000000</td>
+      <td>19.000000</td>
       <td>4.000000</td>
     </tr>
     <tr>
@@ -911,27 +907,27 @@ maitrisesUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Concordia</th>
       <th>count</th>
-      <td>7636.000000</td>
-      <td>7636.000000</td>
-      <td>7636.000000</td>
+      <td>7635.000000</td>
+      <td>7635.000000</td>
+      <td>7635.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2003.427973</td>
-      <td>82.966082</td>
-      <td>126.203772</td>
+      <td>2003.431958</td>
+      <td>82.973674</td>
+      <td>126.218730</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>8.688809</td>
-      <td>33.054336</td>
-      <td>50.834252</td>
+      <td>8.682396</td>
+      <td>33.049842</td>
+      <td>50.820773</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1967.000000</td>
       <td>4.000000</td>
-      <td>12.000000</td>
+      <td>19.000000</td>
     </tr>
     <tr>
       <th>25%</th>
@@ -1345,10 +1341,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x125b42518>,
+    [<matplotlib.text.Text at 0x11f066c88>,
      (0, 350),
-     <matplotlib.text.Text at 0x125b245c0>,
-     <matplotlib.text.Text at 0x11ab88b70>]
+     <matplotlib.text.Text at 0x11e277c18>,
+     <matplotlib.text.Text at 0x11f09f160>]
 
 
 
@@ -1385,7 +1381,7 @@ medianesMaitrisesDiscipline
     Histoire                             145.0
     Géographie                           144.0
     Sciences de l'information            143.0
-    Pédagogie                            142.0
+    Pédagogie                            142.5
     Génie minier                         141.0
     Histoire de l'art                    139.0
     Géologie                             138.0
@@ -1425,7 +1421,7 @@ medianesMaitrisesDiscipline
     Mathématiques                         94.0
     Chirurgie                             94.0
     Télécommunications                    81.5
-    Arts visuels                          78.5
+    Arts visuels                          79.0
     Finance                               72.0
     Name: nbPages, dtype: float64
 
@@ -1461,10 +1457,10 @@ boiteMait.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x11a2f8e10>,
+    [<matplotlib.text.Text at 0x11f118e48>,
      (0, 350),
-     <matplotlib.text.Text at 0x1187c6e80>,
-     <matplotlib.text.Text at 0x119e90b70>]
+     <matplotlib.text.Text at 0x1177d3a90>,
+     <matplotlib.text.Text at 0x120729d68>]
 
 
 
