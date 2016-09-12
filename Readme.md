@@ -726,17 +726,17 @@ boiteDoc.grid(b=True, which='minor', color='w', linewidth=0.5)
 boiteDoc.set(ylabel="Université",
              xlabel="Distribution du nombre de pages",
              xlim=(0,750),
-             title="Nombre de pages des doctorats par université"
+             title="Nombre de pages des doctorats par université\n"
             )
 ```
 
 
 
 
-    [<matplotlib.text.Text at 0x115b15860>,
+    [<matplotlib.text.Text at 0x11f606e10>,
      (0, 750),
-     <matplotlib.text.Text at 0x115aa2390>,
-     <matplotlib.text.Text at 0x115a2f5f8>]
+     <matplotlib.text.Text at 0x11f60d6d8>,
+     <matplotlib.text.Text at 0x11f62cd68>]
 
 
 
@@ -1481,17 +1481,17 @@ boiteDoc.grid(b=True, which='minor', color='w', linewidth=0.5)
 boiteDoc.set(ylabel="Université",
              xlabel="Distribution du nombre de pages",
              xlim=(0,350),
-             title="Nombre de pages des maîtrises par université"
+             title="Nombre de pages des maîtrises par université\n"
             )
 ```
 
 
 
 
-    [<matplotlib.text.Text at 0x11e96beb8>,
+    [<matplotlib.text.Text at 0x11f8f2320>,
      (0, 350),
-     <matplotlib.text.Text at 0x11e956e80>,
-     <matplotlib.text.Text at 0x11e9a4438>]
+     <matplotlib.text.Text at 0x11f876f98>,
+     <matplotlib.text.Text at 0x11f8ffb70>]
 
 
 
