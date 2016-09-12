@@ -77,7 +77,7 @@ plt.title("Distribution des thèses et mémoires\npar nombre de pages",size=20)
 
 
 
-    <matplotlib.text.Text at 0x1207fb1d0>
+    <matplotlib.text.Text at 0x1158b3d30>
 
 
 
@@ -690,10 +690,13 @@ medianesDoctoratsUniv
 
 -----
 Pour illustrer la distribution du nombre de pages des doctorats par université, le meilleur type de graphique est peut-être le *box&nbsp;plot*, qu'on peut traduire par **diagramme de quartiles**... ou ce que les Français ont baptisé des [boîtes à moustaches](https://fr.wikipedia.org/wiki/Bo%C3%AEte_%C3%A0_moustaches).
+
 ![](http://www.statcan.gc.ca/edu/power-pouvoir/ch12/img/5214889_02-fra.gif)
+
 Ces boîtes permettent d'afficher une distribution qui a été découpée en quartiles.<br>
 Les deuxième et troisième quartiles, ceux qui se trouvent de part et d'autre de la médiane, sont représentés par deux rectangles, les boîtes.<br>
-Les premier et dernier quartiles sont, quant à eux, représentés par des lignes. Des valeurs excentriques peuvent enfin être représentés par des points à gauche ou à droite des lignes.
+Les premier et dernier quartiles sont, quant à eux, représentés par des lignes, les moustaches.<br>
+Des valeurs excentriques peuvent enfin être représentés par des points à gauche ou à droite des lignes.
 
 J'ai essayé d'utiliser le [langage R](https://cran.r-project.org/doc/contrib/Goulet_introduction_programmation_R.pdf) pour en produire, comme l'a fait [Markus Beck](https://beckmw.wordpress.com/2014/07/15/average-dissertation-and-thesis-length-take-two/). Mais j'ai été incapable d'arriver à des résultats satisfaisants.
 
@@ -730,10 +733,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x120882a20>,
+    [<matplotlib.text.Text at 0x115b15860>,
      (0, 750),
-     <matplotlib.text.Text at 0x11e6cce10>,
-     <matplotlib.text.Text at 0x11e77bcc0>]
+     <matplotlib.text.Text at 0x115aa2390>,
+     <matplotlib.text.Text at 0x115a2f5f8>]
 
 
 
@@ -855,10 +858,10 @@ boiteDoc.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x11597ea90>,
+    [<matplotlib.text.Text at 0x1159b4518>,
      (0, 750),
-     <matplotlib.text.Text at 0x11ee15080>,
-     <matplotlib.text.Text at 0x11ee0e390>]
+     <matplotlib.text.Text at 0x11917af60>,
+     <matplotlib.text.Text at 0x1195a6b38>]
 
 
 
@@ -1478,17 +1481,17 @@ boiteDoc.grid(b=True, which='minor', color='w', linewidth=0.5)
 boiteDoc.set(ylabel="Université",
              xlabel="Distribution du nombre de pages",
              xlim=(0,350),
-             title="Nombre de pages des doctorats par université"
+             title="Nombre de pages des maîtrises par université"
             )
 ```
 
 
 
 
-    [<matplotlib.text.Text at 0x11ac6f160>,
+    [<matplotlib.text.Text at 0x11e96beb8>,
      (0, 350),
-     <matplotlib.text.Text at 0x11ac8d160>,
-     <matplotlib.text.Text at 0x11a57d6d8>]
+     <matplotlib.text.Text at 0x11e956e80>,
+     <matplotlib.text.Text at 0x11e9a4438>]
 
 
 
@@ -1601,10 +1604,10 @@ boiteMait.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x11ab7c7f0>,
+    [<matplotlib.text.Text at 0x12146ba20>,
      (0, 350),
-     <matplotlib.text.Text at 0x1170e2780>,
-     <matplotlib.text.Text at 0x1170bdfd0>]
+     <matplotlib.text.Text at 0x120f92908>,
+     <matplotlib.text.Text at 0x120b6b0f0>]
 
 
 
