@@ -1,10 +1,10 @@
 
 <h1 style="color:blue">Thèses et mémoires du Québec</h1>
-### Quelques données sur les doctorats et maîtrises publiés dans les universités québécoises depuis les années 1970
+<h3>Quelques données sur les doctorats et maîtrises publiés dans les universités québécoises depuis les années 1990</h3>
 
-----
+<hr>
 
-#### *Data on theses and dissertations published in Québec universities in the last 50 years*
+<h4 style="color:blue">*Data on theses and dissertations published in Québec universities in the last 25 years*</h4>
 
 
 ```python
@@ -44,22 +44,22 @@ parType.describe()
 
 
     type           
-    doctorat  count    16175.000000
-              mean       251.200000
-              std        117.811595
-              min         34.000000
+    doctorat  count    15100.000000
+              mean       251.299007
+              std        116.664381
+              min         36.000000
               25%        172.000000
               50%        226.000000
-              75%        303.000000
+              75%        302.000000
               max       1578.000000
-    maîtrise  count    43541.000000
-              mean       134.424313
-              std         55.511239
+    maîtrise  count    40485.000000
+              mean       133.284179
+              std         54.082249
               min         19.000000
               25%         98.000000
-              50%        125.000000
-              75%        159.000000
-              max        776.000000
+              50%        124.000000
+              75%        157.000000
+              max        744.000000
     dtype: float64
 
 
@@ -77,7 +77,7 @@ plt.title("Distribution des thèses et mémoires\npar nombre de pages",size=20)
 
 
 
-    <matplotlib.text.Text at 0x1158b3d30>
+    <matplotlib.text.Text at 0x1162c2550>
 
 
 
@@ -120,56 +120,56 @@ doctorats.describe()
   <tbody>
     <tr>
       <th>count</th>
-      <td>16175.000000</td>
-      <td>1.491500e+04</td>
-      <td>16175.000000</td>
-      <td>16175.000000</td>
+      <td>15100.00000</td>
+      <td>1.403700e+04</td>
+      <td>15100.000000</td>
+      <td>15100.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2006.596662</td>
-      <td>1.732706e+07</td>
-      <td>251.200000</td>
-      <td>105.367728</td>
+      <td>2008.44457</td>
+      <td>1.757349e+07</td>
+      <td>251.299007</td>
+      <td>107.013046</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>9.254433</td>
-      <td>2.869095e+07</td>
-      <td>117.811595</td>
-      <td>41.261663</td>
+      <td>6.03048</td>
+      <td>2.936342e+07</td>
+      <td>116.664381</td>
+      <td>41.184933</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1966.000000</td>
+      <td>1990.00000</td>
       <td>5.946900e+04</td>
-      <td>34.000000</td>
+      <td>36.000000</td>
       <td>14.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2004.000000</td>
-      <td>4.125314e+06</td>
+      <td>2006.00000</td>
+      <td>3.945311e+06</td>
       <td>172.000000</td>
-      <td>76.000000</td>
+      <td>77.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2010.000000</td>
-      <td>7.931251e+06</td>
+      <td>2010.00000</td>
+      <td>7.671272e+06</td>
       <td>226.000000</td>
-      <td>100.000000</td>
+      <td>102.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>2013.000000</td>
-      <td>1.637154e+07</td>
-      <td>303.000000</td>
-      <td>129.000000</td>
+      <td>2013.00000</td>
+      <td>1.641564e+07</td>
+      <td>302.000000</td>
+      <td>131.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>2016.000000</td>
+      <td>2016.00000</td>
       <td>5.581489e+08</td>
       <td>1578.000000</td>
       <td>378.000000</td>
@@ -218,52 +218,52 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Concordia</th>
       <th>count</th>
-      <td>2162.000000</td>
-      <td>2162.000000</td>
-      <td>2162.000000</td>
-      <td>2.140000e+03</td>
+      <td>2079.000000</td>
+      <td>2079.000000</td>
+      <td>2079.000000</td>
+      <td>2.057000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2004.987974</td>
-      <td>89.526364</td>
-      <td>230.700278</td>
-      <td>8.534401e+06</td>
+      <td>2005.673401</td>
+      <td>89.589707</td>
+      <td>230.285233</td>
+      <td>8.462193e+06</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>7.950381</td>
-      <td>34.425079</td>
-      <td>97.808660</td>
-      <td>8.593958e+06</td>
+      <td>7.269765</td>
+      <td>34.370518</td>
+      <td>96.823321</td>
+      <td>8.644034e+06</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1972.000000</td>
+      <td>1990.000000</td>
       <td>14.000000</td>
       <td>61.000000</td>
       <td>3.519070e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>1999.000000</td>
-      <td>64.000000</td>
+      <td>2000.000000</td>
+      <td>65.000000</td>
       <td>162.000000</td>
-      <td>4.117314e+06</td>
+      <td>4.037521e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2007.000000</td>
+      <td>2008.000000</td>
       <td>85.000000</td>
-      <td>210.500000</td>
-      <td>6.739082e+06</td>
+      <td>210.000000</td>
+      <td>6.642033e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2012.000000</td>
       <td>108.000000</td>
-      <td>276.750000</td>
-      <td>1.047380e+07</td>
+      <td>276.000000</td>
+      <td>1.041637e+07</td>
     </tr>
     <tr>
       <th>max</th>
@@ -275,51 +275,51 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="8" valign="top">HEC Montréal</th>
       <th>count</th>
-      <td>304.000000</td>
-      <td>304.000000</td>
-      <td>304.000000</td>
+      <td>286.000000</td>
+      <td>286.000000</td>
+      <td>286.000000</td>
       <td>0.000000e+00</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2005.072368</td>
-      <td>92.697368</td>
-      <td>262.460526</td>
+      <td>2006.437063</td>
+      <td>92.804196</td>
+      <td>258.132867</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>8.129401</td>
-      <td>37.823551</td>
-      <td>147.050602</td>
+      <td>6.136565</td>
+      <td>37.508784</td>
+      <td>145.435618</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1970.000000</td>
+      <td>1990.000000</td>
       <td>26.000000</td>
       <td>61.000000</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2001.000000</td>
-      <td>62.000000</td>
-      <td>157.750000</td>
+      <td>2003.000000</td>
+      <td>62.250000</td>
+      <td>152.000000</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2007.000000</td>
       <td>89.000000</td>
-      <td>226.000000</td>
+      <td>220.500000</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2012.000000</td>
       <td>118.000000</td>
-      <td>340.250000</td>
+      <td>337.250000</td>
       <td>NaN</td>
     </tr>
     <tr>
@@ -332,52 +332,52 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="8" valign="top">INRS</th>
       <th>count</th>
-      <td>506.000000</td>
-      <td>506.000000</td>
-      <td>506.000000</td>
-      <td>4.800000e+02</td>
+      <td>499.000000</td>
+      <td>499.000000</td>
+      <td>499.000000</td>
+      <td>4.730000e+02</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2007.750988</td>
-      <td>122.173913</td>
-      <td>246.189723</td>
-      <td>2.394907e+07</td>
+      <td>2008.030060</td>
+      <td>122.625251</td>
+      <td>246.112224</td>
+      <td>2.360549e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>6.281298</td>
-      <td>40.401272</td>
-      <td>88.376734</td>
-      <td>3.148578e+07</td>
+      <td>5.860930</td>
+      <td>40.343130</td>
+      <td>88.203599</td>
+      <td>3.143506e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1986.000000</td>
+      <td>1990.000000</td>
       <td>37.000000</td>
       <td>87.000000</td>
       <td>6.946860e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2004.000000</td>
-      <td>94.250000</td>
-      <td>182.250000</td>
-      <td>4.736097e+06</td>
+      <td>2005.000000</td>
+      <td>95.000000</td>
+      <td>182.500000</td>
+      <td>4.665799e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2009.000000</td>
-      <td>117.000000</td>
-      <td>231.500000</td>
-      <td>1.067114e+07</td>
+      <td>118.000000</td>
+      <td>231.000000</td>
+      <td>1.036514e+07</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2013.000000</td>
-      <td>146.000000</td>
-      <td>292.000000</td>
-      <td>2.758995e+07</td>
+      <td>146.500000</td>
+      <td>291.500000</td>
+      <td>2.675130e+07</td>
     </tr>
     <tr>
       <th>max</th>
@@ -389,45 +389,45 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="6" valign="top">McGill</th>
       <th>count</th>
-      <td>2665.000000</td>
-      <td>2665.000000</td>
-      <td>2665.000000</td>
-      <td>2.665000e+03</td>
+      <td>1928.000000</td>
+      <td>1928.000000</td>
+      <td>1928.000000</td>
+      <td>1.928000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>1997.303940</td>
-      <td>86.746341</td>
-      <td>252.076173</td>
-      <td>1.153565e+07</td>
+      <td>2004.750000</td>
+      <td>89.725104</td>
+      <td>246.012967</td>
+      <td>1.070978e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>14.148104</td>
-      <td>34.138719</td>
-      <td>113.549763</td>
-      <td>1.232778e+07</td>
+      <td>7.590502</td>
+      <td>33.769375</td>
+      <td>104.195439</td>
+      <td>1.170829e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1966.000000</td>
-      <td>14.000000</td>
-      <td>34.000000</td>
+      <td>1990.000000</td>
+      <td>16.000000</td>
+      <td>39.000000</td>
       <td>4.112780e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>1987.000000</td>
-      <td>62.000000</td>
+      <td>1998.000000</td>
+      <td>65.000000</td>
       <td>182.000000</td>
-      <td>5.463972e+06</td>
+      <td>4.443214e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2000.000000</td>
-      <td>83.000000</td>
-      <td>228.000000</td>
-      <td>9.004410e+06</td>
+      <td>2006.000000</td>
+      <td>85.000000</td>
+      <td>225.000000</td>
+      <td>7.968924e+06</td>
     </tr>
     <tr>
       <th>...</th>
@@ -440,10 +440,10 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="6" valign="top">Université Laval</th>
       <th>std</th>
-      <td>3.235148</td>
-      <td>41.835292</td>
-      <td>120.192935</td>
-      <td>4.534371e+07</td>
+      <td>3.234236</td>
+      <td>41.840826</td>
+      <td>120.205734</td>
+      <td>4.534710e+07</td>
     </tr>
     <tr>
       <th>min</th>
@@ -457,21 +457,21 @@ doctoratsUniv.describe()
       <td>2008.000000</td>
       <td>84.000000</td>
       <td>174.000000</td>
-      <td>5.301769e+06</td>
+      <td>5.304797e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2011.000000</td>
       <td>109.000000</td>
       <td>232.000000</td>
-      <td>2.037965e+07</td>
+      <td>2.040858e+07</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2014.000000</td>
       <td>137.000000</td>
-      <td>310.500000</td>
-      <td>5.389918e+07</td>
+      <td>310.750000</td>
+      <td>5.390030e+07</td>
     </tr>
     <tr>
       <th>max</th>
@@ -483,28 +483,28 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Université de Montréal</th>
       <th>count</th>
-      <td>2676.000000</td>
-      <td>2676.000000</td>
-      <td>2676.000000</td>
-      <td>2.676000e+03</td>
+      <td>2641.000000</td>
+      <td>2641.000000</td>
+      <td>2641.000000</td>
+      <td>2.641000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2009.778774</td>
-      <td>109.508595</td>
-      <td>282.806801</td>
-      <td>9.019822e+06</td>
+      <td>2010.151079</td>
+      <td>109.820144</td>
+      <td>283.244983</td>
+      <td>9.042001e+06</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>4.929902</td>
-      <td>38.674693</td>
-      <td>121.275155</td>
-      <td>1.787053e+07</td>
+      <td>3.687238</td>
+      <td>38.697944</td>
+      <td>121.221355</td>
+      <td>1.797919e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1970.000000</td>
+      <td>1990.000000</td>
       <td>21.000000</td>
       <td>49.000000</td>
       <td>1.110980e+05</td>
@@ -513,22 +513,22 @@ doctoratsUniv.describe()
       <th>25%</th>
       <td>2008.000000</td>
       <td>81.000000</td>
-      <td>201.000000</td>
-      <td>2.194149e+06</td>
+      <td>202.000000</td>
+      <td>2.180442e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2010.000000</td>
       <td>107.000000</td>
-      <td>259.000000</td>
-      <td>4.303511e+06</td>
+      <td>260.000000</td>
+      <td>4.277027e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2013.000000</td>
       <td>135.000000</td>
-      <td>337.250000</td>
-      <td>8.560010e+06</td>
+      <td>338.000000</td>
+      <td>8.554617e+06</td>
     </tr>
     <tr>
       <th>max</th>
@@ -540,28 +540,28 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Université de Sherbrooke</th>
       <th>count</th>
-      <td>1728.000000</td>
-      <td>1728.000000</td>
-      <td>1728.000000</td>
-      <td>1.728000e+03</td>
+      <td>1724.000000</td>
+      <td>1724.000000</td>
+      <td>1724.000000</td>
+      <td>1.724000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2008.038773</td>
-      <td>117.899306</td>
-      <td>234.346065</td>
-      <td>1.661539e+07</td>
+      <td>2008.096868</td>
+      <td>117.897332</td>
+      <td>234.301044</td>
+      <td>1.658168e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>5.933740</td>
-      <td>43.135735</td>
-      <td>105.779646</td>
-      <td>3.248008e+07</td>
+      <td>5.812250</td>
+      <td>43.160102</td>
+      <td>105.855871</td>
+      <td>3.248490e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1975.000000</td>
+      <td>1990.000000</td>
       <td>21.000000</td>
       <td>46.000000</td>
       <td>5.946900e+04</td>
@@ -571,21 +571,21 @@ doctoratsUniv.describe()
       <td>2004.000000</td>
       <td>88.000000</td>
       <td>163.000000</td>
-      <td>5.510396e+06</td>
+      <td>5.499002e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2009.000000</td>
       <td>111.000000</td>
       <td>208.000000</td>
-      <td>8.374180e+06</td>
+      <td>8.366110e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2013.000000</td>
       <td>142.000000</td>
       <td>276.000000</td>
-      <td>1.287293e+07</td>
+      <td>1.283679e+07</td>
     </tr>
     <tr>
       <th>max</th>
@@ -672,18 +672,18 @@ medianesDoctoratsUniv
 
     universite
     UQAM                        269.0
-    Université de Montréal      259.0
-    UQAC                        242.5
+    Université de Montréal      260.0
+    UQAC                        243.0
     UQO                         238.5
-    UQAT                        238.5
     Université Laval            232.0
-    INRS                        231.5
-    McGill                      228.0
-    HEC Montréal                226.0
-    Concordia                   210.5
+    INRS                        231.0
+    McGill                      225.0
+    UQAT                        220.5
+    HEC Montréal                220.5
+    Concordia                   210.0
     Université de Sherbrooke    208.0
     École Polytechnique         186.0
-    UQTR                        145.0
+    UQTR                        153.0
     Name: nbPages, dtype: float64
 
 
@@ -733,10 +733,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x11f606e10>,
+    [<matplotlib.text.Text at 0x11622f320>,
      (0, 750),
-     <matplotlib.text.Text at 0x11f60d6d8>,
-     <matplotlib.text.Text at 0x11f62cd68>]
+     <matplotlib.text.Text at 0x11671b320>,
+     <matplotlib.text.Text at 0x11956bb38>]
 
 
 
@@ -761,65 +761,65 @@ medianesDoctoratsDiscipline
     discipline
     Droit                                 459.0
     Relations industrielles               420.0
-    Anthropologie                         410.0
-    Histoire                              405.0
+    Histoire                              412.0
+    Anthropologie                         407.5
     Traduction                            394.5
-    Études classiques                     378.0
+    Études classiques                     392.5
+    Études françaises                     372.0
     Cinéma                                366.0
-    Histoire de l'art                     363.0
+    Histoire de l'art                     364.0
     Littérature                           355.0
-    Études slaves                         353.0
-    Sociologie                            350.5
-    Science politique                     347.0
-    Communication                         337.0
-    Études islamiques                     337.0
+    Sociologie                            350.0
+    Science politique                     346.0
+    Religion/théologie                    340.5
     Pédagogie                             336.0
-    Études françaises                     336.0
-    Religion/théologie                    335.0
+    Communication                         335.0
+    Aménagement/urbanisme                 330.0
     Gérontologie                          329.0
-    Aménagement/urbanisme                 326.0
-    Philosophie                           323.0
-    Études hispaniques                    316.5
+    Études islamiques                     328.5
+    Philosophie                           324.0
+    Sciences humaines générales           315.0
     Administration publique               314.0
-    Design                                313.5
-    Sciences humaines générales           313.0
-    Linguistique                          312.0
+    Études hispaniques                    313.0
+    Linguistique                          308.0
     Sciences de l'information             300.0
-    Géographie                            296.5
     Travail social                        294.5
+    Géographie                            293.0
     Nutrition                             291.5
     Arts visuels                          289.0
+    Santé publique et communautaire       287.0
+    Éducation                             286.0
                                           ...  
-    Génétique                             215.0
-    Orientation                           210.0
-    Génie chimique                        209.0
+    Génie minier                          220.0
+    Orientation                           217.0
+    Génie de l'environnement              216.5
     Télécommunications                    207.0
-    Agriculture et pêcheries              204.0
-    Biotechnologie agricole               203.0
-    Génie mécanique                       202.0
-    Génie industriel                      200.5
+    Génie chimique                        204.0
+    Génie industriel                      202.0
+    Biotechnologie agricole               201.0
     Comptabilité                          200.0
+    Génie mécanique                       199.0
     Génie physique                        199.0
+    Agriculture et pêcheries              198.5
     Musique                               197.0
     Ingénierie biomédicale                196.5
     Sciences de l'environnement           194.0
-    Biologie                              192.0
+    Biologie                              190.0
     Radiologie et imagerie biomédicale    188.0
     Marketing                             187.5
-    Géomatique et télédétection           185.5
+    Géomatique et télédétection           187.0
     Informatique                          185.0
     Sylviculture/foresterie               184.5
-    Psychiatrie                           182.0
-    Physique                              181.0
-    Météorologie                          181.0
-    Génie électrique                      179.0
+    Météorologie                          182.5
+    Physique                              178.0
+    Génie électrique                      178.0
     Génie logiciel                        173.0
     Médecine dentaire                     171.0
-    Économie                              164.5
-    Psychologie                           163.0
-    Finance                               157.0
+    Psychologie                           166.0
+    Économie                              157.0
+    Finance                               156.5
     Statistique                           152.0
-    Mathématiques                         133.0
+    Mathématiques                         133.5
     Name: nbPages, dtype: float64
 
 
@@ -838,7 +838,7 @@ sns.set_style("darkgrid", {
         "axes.facecolor": "lightskyblue",
         "font.family": [u"Bitstream Vera Sans"]
     })
-couleurs = sns.light_palette("turquoise", n_colors=99, reverse=True)
+couleurs = sns.light_palette("turquoise", n_colors=93, reverse=True)
 boiteDoc = sns.boxplot(y="discipline",
                        x="nbPages",
                        data=doctorats,
@@ -851,17 +851,17 @@ boiteDoc.grid(b=True, which='minor', color='w', linewidth=1)
 boiteDoc.set(ylabel="Discipline",
              xlabel="Distribution du nombre de pages",
              xlim=(0,750),
-             title="Nombre de pages des doctorats par discipline\nUniversités du Québec (de 1970 env. à 2016)\n"
+             title="Nombre de pages des doctorats par discipline\nUniversités du Québec (de 1990 à 2016)\n"
             )
 ```
 
 
 
 
-    [<matplotlib.text.Text at 0x1159b4518>,
+    [<matplotlib.text.Text at 0x119b9ccc0>,
      (0, 750),
-     <matplotlib.text.Text at 0x11917af60>,
-     <matplotlib.text.Text at 0x1195a6b38>]
+     <matplotlib.text.Text at 0x11979cba8>,
+     <matplotlib.text.Text at 0x119774be0>]
 
 
 
@@ -900,58 +900,58 @@ maitrises.describe()
   <tbody>
     <tr>
       <th>count</th>
-      <td>43541.000000</td>
-      <td>3.732400e+04</td>
-      <td>43541.000000</td>
-      <td>43541.000000</td>
+      <td>40485.000000</td>
+      <td>3.477800e+04</td>
+      <td>40485.000000</td>
+      <td>40485.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2005.204244</td>
-      <td>8.792853e+06</td>
-      <td>134.424313</td>
-      <td>100.840128</td>
+      <td>2007.034111</td>
+      <td>8.790473e+06</td>
+      <td>133.284179</td>
+      <td>102.193034</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>9.199370</td>
-      <td>1.852868e+07</td>
-      <td>55.511239</td>
-      <td>39.285272</td>
+      <td>6.312315</td>
+      <td>1.820470e+07</td>
+      <td>54.082249</td>
+      <td>39.216650</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1965.000000</td>
+      <td>1990.000000</td>
       <td>9.075000e+03</td>
       <td>19.000000</td>
       <td>4.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2002.000000</td>
-      <td>2.410020e+06</td>
+      <td>2004.000000</td>
+      <td>2.322921e+06</td>
       <td>98.000000</td>
-      <td>73.000000</td>
+      <td>75.000000</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2008.000000</td>
-      <td>4.296643e+06</td>
-      <td>125.000000</td>
-      <td>96.000000</td>
+      <td>4.191776e+06</td>
+      <td>124.000000</td>
+      <td>98.000000</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2012.000000</td>
-      <td>8.060541e+06</td>
-      <td>159.000000</td>
-      <td>124.000000</td>
+      <td>8.056662e+06</td>
+      <td>157.000000</td>
+      <td>125.000000</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2016.000000</td>
       <td>1.916892e+09</td>
-      <td>776.000000</td>
+      <td>744.000000</td>
       <td>345.000000</td>
     </tr>
   </tbody>
@@ -993,85 +993,85 @@ maitrisesUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Concordia</th>
       <th>count</th>
-      <td>7635.000000</td>
-      <td>7635.000000</td>
-      <td>7635.000000</td>
-      <td>7.572000e+03</td>
+      <td>7210.000000</td>
+      <td>7210.000000</td>
+      <td>7210.000000</td>
+      <td>7.147000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2003.431958</td>
-      <td>82.973674</td>
-      <td>126.218730</td>
-      <td>5.212281e+06</td>
+      <td>2004.673786</td>
+      <td>83.308460</td>
+      <td>125.848128</td>
+      <td>5.177932e+06</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>8.682396</td>
-      <td>33.049842</td>
-      <td>50.820773</td>
-      <td>2.404538e+07</td>
+      <td>6.978006</td>
+      <td>32.854020</td>
+      <td>49.743067</td>
+      <td>2.473131e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1967.000000</td>
+      <td>1990.000000</td>
       <td>4.000000</td>
       <td>19.000000</td>
       <td>9.075000e+03</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>1998.000000</td>
+      <td>2000.000000</td>
       <td>61.000000</td>
-      <td>93.000000</td>
-      <td>2.473654e+06</td>
+      <td>94.000000</td>
+      <td>2.440756e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2005.000000</td>
+      <td>2006.000000</td>
       <td>80.000000</td>
       <td>117.000000</td>
-      <td>3.908633e+06</td>
+      <td>3.859451e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2010.000000</td>
       <td>103.000000</td>
       <td>149.000000</td>
-      <td>5.795650e+06</td>
+      <td>5.704982e+06</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2016.000000</td>
-      <td>298.000000</td>
+      <td>251.000000</td>
       <td>666.000000</td>
       <td>1.916892e+09</td>
     </tr>
     <tr>
       <th rowspan="8" valign="top">HEC Montréal</th>
       <th>count</th>
-      <td>2752.000000</td>
-      <td>2752.000000</td>
-      <td>2752.000000</td>
+      <td>2691.000000</td>
+      <td>2691.000000</td>
+      <td>2691.000000</td>
       <td>0.000000e+00</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2004.394985</td>
-      <td>98.805596</td>
-      <td>148.677326</td>
+      <td>2004.829431</td>
+      <td>98.866592</td>
+      <td>146.237087</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>6.261178</td>
-      <td>35.595852</td>
-      <td>69.273289</td>
+      <td>5.603063</td>
+      <td>35.700203</td>
+      <td>66.552327</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1981.000000</td>
+      <td>1990.000000</td>
       <td>21.000000</td>
       <td>27.000000</td>
       <td>NaN</td>
@@ -1080,21 +1080,21 @@ maitrisesUniv.describe()
       <th>25%</th>
       <td>2001.000000</td>
       <td>74.000000</td>
-      <td>98.000000</td>
+      <td>97.000000</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2005.000000</td>
       <td>94.000000</td>
-      <td>137.000000</td>
+      <td>136.000000</td>
       <td>NaN</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2009.000000</td>
       <td>119.000000</td>
-      <td>183.000000</td>
+      <td>181.000000</td>
       <td>NaN</td>
     </tr>
     <tr>
@@ -1107,102 +1107,102 @@ maitrisesUniv.describe()
     <tr>
       <th rowspan="8" valign="top">INRS</th>
       <th>count</th>
-      <td>918.000000</td>
-      <td>918.000000</td>
-      <td>918.000000</td>
-      <td>8.680000e+02</td>
+      <td>852.000000</td>
+      <td>852.000000</td>
+      <td>852.000000</td>
+      <td>8.020000e+02</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2004.844227</td>
-      <td>117.749455</td>
-      <td>138.529412</td>
-      <td>1.586013e+07</td>
+      <td>2006.393192</td>
+      <td>118.221831</td>
+      <td>135.187793</td>
+      <td>1.380241e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>8.143527</td>
-      <td>37.944952</td>
-      <td>60.024393</td>
-      <td>2.212764e+07</td>
+      <td>6.125526</td>
+      <td>38.144186</td>
+      <td>54.682525</td>
+      <td>2.036042e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1980.000000</td>
+      <td>1990.000000</td>
       <td>39.000000</td>
       <td>46.000000</td>
       <td>4.846760e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2002.000000</td>
+      <td>2003.000000</td>
       <td>89.000000</td>
-      <td>99.250000</td>
-      <td>2.274476e+06</td>
+      <td>98.000000</td>
+      <td>2.168610e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2006.000000</td>
-      <td>114.000000</td>
-      <td>126.000000</td>
-      <td>5.926222e+06</td>
+      <td>2007.000000</td>
+      <td>115.000000</td>
+      <td>124.000000</td>
+      <td>4.917306e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2011.000000</td>
       <td>141.000000</td>
-      <td>162.000000</td>
-      <td>1.965946e+07</td>
+      <td>158.250000</td>
+      <td>1.571059e+07</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2016.000000</td>
       <td>259.000000</td>
-      <td>776.000000</td>
+      <td>572.000000</td>
       <td>2.258889e+08</td>
     </tr>
     <tr>
       <th rowspan="6" valign="top">McGill</th>
       <th>count</th>
-      <td>4707.000000</td>
-      <td>4707.000000</td>
-      <td>4707.000000</td>
-      <td>4.707000e+03</td>
+      <td>3169.000000</td>
+      <td>3169.000000</td>
+      <td>3169.000000</td>
+      <td>3.169000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>1995.230083</td>
-      <td>83.101763</td>
-      <td>124.154238</td>
-      <td>5.803668e+06</td>
+      <td>2003.526033</td>
+      <td>87.065636</td>
+      <td>113.933733</td>
+      <td>5.120333e+06</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>14.022353</td>
-      <td>33.238671</td>
-      <td>48.615717</td>
-      <td>1.218299e+07</td>
+      <td>7.550171</td>
+      <td>33.343854</td>
+      <td>35.053225</td>
+      <td>6.688783e+06</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1966.000000</td>
+      <td>1990.000000</td>
       <td>9.000000</td>
       <td>27.000000</td>
       <td>1.148270e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>1985.000000</td>
-      <td>59.000000</td>
-      <td>94.000000</td>
-      <td>2.972332e+06</td>
+      <td>1997.000000</td>
+      <td>63.000000</td>
+      <td>91.000000</td>
+      <td>2.421128e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>1997.000000</td>
-      <td>78.000000</td>
-      <td>115.000000</td>
-      <td>4.607944e+06</td>
+      <td>2004.000000</td>
+      <td>82.000000</td>
+      <td>109.000000</td>
+      <td>4.120969e+06</td>
     </tr>
     <tr>
       <th>...</th>
@@ -1258,28 +1258,28 @@ maitrisesUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Université de Montréal</th>
       <th>count</th>
-      <td>5473.000000</td>
-      <td>5473.000000</td>
-      <td>5473.000000</td>
-      <td>5.473000e+03</td>
+      <td>5368.000000</td>
+      <td>5368.000000</td>
+      <td>5368.000000</td>
+      <td>5.368000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2009.435593</td>
-      <td>105.431573</td>
-      <td>134.880322</td>
-      <td>4.493519e+06</td>
+      <td>2009.920268</td>
+      <td>105.663376</td>
+      <td>134.533905</td>
+      <td>4.505311e+06</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>4.978674</td>
-      <td>36.490893</td>
-      <td>48.302509</td>
-      <td>1.166964e+07</td>
+      <td>3.593720</td>
+      <td>36.558156</td>
+      <td>47.373174</td>
+      <td>1.177802e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1976.000000</td>
+      <td>1990.000000</td>
       <td>13.000000</td>
       <td>25.000000</td>
       <td>6.659300e+04</td>
@@ -1289,21 +1289,21 @@ maitrisesUniv.describe()
       <td>2008.000000</td>
       <td>79.000000</td>
       <td>104.000000</td>
-      <td>1.092832e+06</td>
+      <td>1.077788e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2010.000000</td>
       <td>103.000000</td>
       <td>128.000000</td>
-      <td>2.107427e+06</td>
+      <td>2.077272e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2013.000000</td>
       <td>129.000000</td>
       <td>157.000000</td>
-      <td>4.037837e+06</td>
+      <td>4.023963e+06</td>
     </tr>
     <tr>
       <th>max</th>
@@ -1315,59 +1315,59 @@ maitrisesUniv.describe()
     <tr>
       <th rowspan="8" valign="top">Université de Sherbrooke</th>
       <th>count</th>
-      <td>4749.000000</td>
-      <td>4749.000000</td>
-      <td>4749.000000</td>
-      <td>4.749000e+03</td>
+      <td>4640.000000</td>
+      <td>4640.000000</td>
+      <td>4640.000000</td>
+      <td>4.640000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2005.481154</td>
-      <td>110.097915</td>
-      <td>140.593178</td>
-      <td>1.085390e+07</td>
+      <td>2006.019397</td>
+      <td>110.667457</td>
+      <td>140.139871</td>
+      <td>1.015948e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>7.199638</td>
-      <td>39.911442</td>
-      <td>55.388997</td>
-      <td>2.093899e+07</td>
+      <td>6.288464</td>
+      <td>39.815207</td>
+      <td>54.996114</td>
+      <td>1.797599e+07</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1965.000000</td>
+      <td>1990.000000</td>
       <td>14.000000</td>
       <td>30.000000</td>
       <td>3.310720e+05</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2000.000000</td>
-      <td>82.000000</td>
+      <td>2001.000000</td>
+      <td>83.000000</td>
       <td>104.000000</td>
-      <td>3.342797e+06</td>
+      <td>3.317203e+06</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2006.000000</td>
-      <td>106.000000</td>
+      <td>2007.000000</td>
+      <td>107.000000</td>
       <td>130.000000</td>
-      <td>5.232517e+06</td>
+      <td>5.174308e+06</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2011.000000</td>
-      <td>133.000000</td>
-      <td>166.000000</td>
-      <td>7.981370e+06</td>
+      <td>134.000000</td>
+      <td>165.000000</td>
+      <td>7.816884e+06</td>
     </tr>
     <tr>
       <th>max</th>
       <td>2016.000000</td>
       <td>305.000000</td>
       <td>712.000000</td>
-      <td>6.318229e+08</td>
+      <td>2.953644e+08</td>
     </tr>
     <tr>
       <th rowspan="8" valign="top">École Polytechnique</th>
@@ -1443,19 +1443,19 @@ medianesMaitrisesUniv
 
 
     universite
-    UQAC                        148.0
-    HEC Montréal                137.0
-    UQAT                        135.0
+    UQAC                        144.0
+    HEC Montréal                136.0
     UQAM                        135.0
+    UQAT                        131.0
     Université de Sherbrooke    130.0
     Université de Montréal      128.0
-    INRS                        126.0
+    INRS                        124.0
     École Polytechnique         123.5
     Université Laval            120.0
-    UQTR                        119.5
+    UQTR                        118.0
+    UQO                         117.5
     Concordia                   117.0
-    UQO                         116.0
-    McGill                      115.0
+    McGill                      109.0
     Name: nbPages, dtype: float64
 
 
@@ -1488,10 +1488,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x11f8f2320>,
+    [<matplotlib.text.Text at 0x11f60de80>,
      (0, 350),
-     <matplotlib.text.Text at 0x11f876f98>,
-     <matplotlib.text.Text at 0x11f8ffb70>]
+     <matplotlib.text.Text at 0x11f5f7e10>,
+     <matplotlib.text.Text at 0x11f614898>]
 
 
 
@@ -1511,65 +1511,65 @@ medianesMaitrisesDiscipline
     discipline
     Design                               179.0
     Danse                                176.0
-    Aménagement/urbanisme                165.0
-    Management/gestion                   162.0
-    Droit                                162.0
-    Sciences infirmières                 158.0
-    Génie (général)                      157.0
+    Aménagement/urbanisme                164.0
+    Sciences infirmières                 158.5
+    Management/gestion                   158.0
+    Droit                                158.0
     Gérontologie                         157.0
-    Anthropologie                        154.0
+    Génie (général)                      157.0
+    Anthropologie                        154.5
     Relations industrielles              152.0
-    Architecture                         149.0
     Génie civil                          149.0
-    Travail social                       147.0
-    Études slaves                        147.0
+    Travail social                       148.0
     Sociologie                           146.0
     Sciences humaines générales          145.0
-    Histoire                             145.0
-    Géographie                           144.0
+    Pédagogie                            144.0
+    Études juives                        143.5
     Sciences de l'information            143.0
-    Pédagogie                            142.5
-    Génie minier                         141.0
-    Histoire de l'art                    139.0
-    Géologie                             138.0
+    Histoire                             143.0
+    Géographie                           141.0
+    Linguistique                         139.0
     Éducation                            138.0
-    Linguistique                         138.0
-    Études islamiques                    136.0
-    Études juives                        135.5
+    Génie minier                         137.5
+    Histoire de l'art                    137.5
+    Géologie                             136.0
+    Architecture                         135.5
     Communication                        135.0
     Science politique                    135.0
-    Religion/théologie                   135.0
+    Religion/théologie                   134.0
+    Administration publique              133.0
+    Criminologie                         132.5
                                          ...  
-    Médecine dentaire                    112.0
-    Génie logiciel                       112.0
-    Épidémiologie                        111.0
-    Psychiatrie                          110.0
-    Études italiennes                    110.0
+    Géomatique et télédétection          110.0
     Théâtre                              110.0
-    Génétique                            109.5
-    Informatique                         108.5
+    Génétique                            108.0
+    Épidémiologie                        108.0
+    Anatomie                             108.0
+    Informatique                         108.0
     Médecine expérimentale               108.0
-    Sciences de l'environnement          108.0
-    Pathologie                           106.5
-    Psychologie                          105.0
-    Marketing                            105.0
+    Pathologie                           107.0
+    Psychiatrie                          106.5
+    Sciences de l'environnement          106.0
     Comptabilité                         105.0
-    Agriculture et pêcheries             104.0
-    Sylviculture/foresterie              103.0
-    Kinésiologie                         102.5
-    Météorologie                         101.5
-    Neurologie                           101.0
+    Marketing                            105.0
+    Psychologie                          103.0
+    Agriculture et pêcheries             103.0
+    Sylviculture/foresterie              102.0
+    Kinésiologie                         101.0
     Statistique                          100.0
     Études des sciences et techniques    100.0
+    Neurologie                           100.0
+    Météorologie                          99.5
     Physique                              99.0
-    Économie                              96.0
+    Études italiennes                     97.0
     Biologie                              94.0
-    Psychoéducation                       94.0
     Mathématiques                         94.0
-    Chirurgie                             94.0
+    Psychoéducation                       94.0
+    Chirurgie                             89.0
     Télécommunications                    81.5
+    Économie                              80.0
     Arts visuels                          79.0
-    Finance                               72.0
+    Finance                               69.0
     Name: nbPages, dtype: float64
 
 
@@ -1597,17 +1597,17 @@ boiteMait.grid(b=True, which='minor', color='w', linewidth=1)
 boiteMait.set(ylabel="Discipline",
              xlabel="Distribution du nombre de pages",
              xlim=(0,350),
-             title="Nombre de pages des maîtrises par discipline\nUniversités du Québec (de 1970 env. à 2016)\n"
+             title="Nombre de pages des maîtrises par discipline\nUniversités du Québec (de 1990 à 2016)\n"
             )
 ```
 
 
 
 
-    [<matplotlib.text.Text at 0x12146ba20>,
+    [<matplotlib.text.Text at 0x11ef83978>,
      (0, 350),
-     <matplotlib.text.Text at 0x120f92908>,
-     <matplotlib.text.Text at 0x120b6b0f0>]
+     <matplotlib.text.Text at 0x11ef66eb8>,
+     <matplotlib.text.Text at 0x11efb5828>]
 
 
 
@@ -1630,7 +1630,7 @@ violon = sns.violinplot(y="universite", x="nbPages", data=theses, bw=.1, hue="ty
 violon.set(ylabel="Université",
              xlabel="Distribution du nombre de pages",
              xlim=(-100,1400),
-             title="Nombre de pages des maîtrises et des doctorats par université\nUniversités du Québec (de 1970 env. à 2016)\n"
+             title="Nombre de pages des maîtrises et des doctorats par université\nUniversités du Québec (de 1990 à 2016)\n"
             )
 sns.despine()
 ```
@@ -1638,8 +1638,3 @@ sns.despine()
 
 ![png](theses_files/theses_28_0.png)
 
-
-
-```python
-
-```
