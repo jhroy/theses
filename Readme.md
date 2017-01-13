@@ -44,17 +44,17 @@ parType.describe()
 
 
     type           
-    doctorat  count    15100.000000
-              mean       251.299007
-              std        116.664381
-              min         36.000000
+    doctorat  count    15097.000000
+              mean       251.340929
+              std        116.638041
+              min         46.000000
               25%        172.000000
               50%        226.000000
               75%        302.000000
               max       1578.000000
-    maîtrise  count    40485.000000
-              mean       133.284179
-              std         54.082249
+    maîtrise  count    40486.000000
+              mean       133.282023
+              std         54.083320
               min         19.000000
               25%         98.000000
               50%        124.000000
@@ -77,7 +77,7 @@ plt.title("Distribution des thèses et mémoires\npar nombre de pages",size=20)
 
 
 
-    <matplotlib.text.Text at 0x1162c2550>
+    <matplotlib.text.Text at 0x115e74128>
 
 
 
@@ -120,56 +120,56 @@ doctorats.describe()
   <tbody>
     <tr>
       <th>count</th>
-      <td>15100.00000</td>
-      <td>1.403700e+04</td>
-      <td>15100.000000</td>
-      <td>15100.000000</td>
+      <td>15097.000000</td>
+      <td>1.403500e+04</td>
+      <td>15097.000000</td>
+      <td>15097.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2008.44457</td>
-      <td>1.757349e+07</td>
-      <td>251.299007</td>
-      <td>107.013046</td>
+      <td>2008.445320</td>
+      <td>1.757504e+07</td>
+      <td>251.340929</td>
+      <td>107.015566</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>6.03048</td>
-      <td>2.936342e+07</td>
-      <td>116.664381</td>
-      <td>41.184933</td>
+      <td>6.029071</td>
+      <td>2.936516e+07</td>
+      <td>116.638041</td>
+      <td>41.183641</td>
     </tr>
     <tr>
       <th>min</th>
-      <td>1990.00000</td>
+      <td>1990.000000</td>
       <td>5.946900e+04</td>
-      <td>36.000000</td>
+      <td>46.000000</td>
       <td>14.000000</td>
     </tr>
     <tr>
       <th>25%</th>
-      <td>2006.00000</td>
-      <td>3.945311e+06</td>
+      <td>2006.000000</td>
+      <td>3.945502e+06</td>
       <td>172.000000</td>
       <td>77.000000</td>
     </tr>
     <tr>
       <th>50%</th>
-      <td>2010.00000</td>
+      <td>2010.000000</td>
       <td>7.671272e+06</td>
       <td>226.000000</td>
       <td>102.000000</td>
     </tr>
     <tr>
       <th>75%</th>
-      <td>2013.00000</td>
-      <td>1.641564e+07</td>
+      <td>2013.000000</td>
+      <td>1.641865e+07</td>
       <td>302.000000</td>
       <td>131.000000</td>
     </tr>
     <tr>
       <th>max</th>
-      <td>2016.00000</td>
+      <td>2016.000000</td>
       <td>5.581489e+08</td>
       <td>1578.000000</td>
       <td>378.000000</td>
@@ -389,30 +389,30 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="6" valign="top">McGill</th>
       <th>count</th>
-      <td>1928.000000</td>
-      <td>1928.000000</td>
-      <td>1928.000000</td>
-      <td>1.928000e+03</td>
+      <td>1927.000000</td>
+      <td>1927.000000</td>
+      <td>1927.000000</td>
+      <td>1.927000e+03</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2004.750000</td>
-      <td>89.725104</td>
-      <td>246.012967</td>
-      <td>1.070978e+07</td>
+      <td>2004.746238</td>
+      <td>89.756098</td>
+      <td>246.120394</td>
+      <td>1.071442e+07</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>7.590502</td>
-      <td>33.769375</td>
-      <td>104.195439</td>
-      <td>1.170829e+07</td>
+      <td>7.590674</td>
+      <td>33.750700</td>
+      <td>104.115630</td>
+      <td>1.170955e+07</td>
     </tr>
     <tr>
       <th>min</th>
       <td>1990.000000</td>
       <td>16.000000</td>
-      <td>39.000000</td>
+      <td>47.000000</td>
       <td>4.112780e+05</td>
     </tr>
     <tr>
@@ -420,14 +420,14 @@ doctoratsUniv.describe()
       <td>1998.000000</td>
       <td>65.000000</td>
       <td>182.000000</td>
-      <td>4.443214e+06</td>
+      <td>4.445412e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2006.000000</td>
       <td>85.000000</td>
       <td>225.000000</td>
-      <td>7.968924e+06</td>
+      <td>7.978906e+06</td>
     </tr>
     <tr>
       <th>...</th>
@@ -440,16 +440,16 @@ doctoratsUniv.describe()
     <tr>
       <th rowspan="6" valign="top">Université Laval</th>
       <th>std</th>
-      <td>3.234236</td>
-      <td>41.840826</td>
-      <td>120.205734</td>
-      <td>4.534710e+07</td>
+      <td>3.234690</td>
+      <td>41.847277</td>
+      <td>120.156801</td>
+      <td>4.535230e+07</td>
     </tr>
     <tr>
       <th>min</th>
       <td>2002.000000</td>
       <td>14.000000</td>
-      <td>36.000000</td>
+      <td>57.000000</td>
       <td>4.692270e+05</td>
     </tr>
     <tr>
@@ -457,21 +457,21 @@ doctoratsUniv.describe()
       <td>2008.000000</td>
       <td>84.000000</td>
       <td>174.000000</td>
-      <td>5.304797e+06</td>
+      <td>5.303671e+06</td>
     </tr>
     <tr>
       <th>50%</th>
       <td>2011.000000</td>
       <td>109.000000</td>
       <td>232.000000</td>
-      <td>2.040858e+07</td>
+      <td>2.043751e+07</td>
     </tr>
     <tr>
       <th>75%</th>
       <td>2014.000000</td>
       <td>137.000000</td>
-      <td>310.750000</td>
-      <td>5.390030e+07</td>
+      <td>311.000000</td>
+      <td>5.390143e+07</td>
     </tr>
     <tr>
       <th>max</th>
@@ -683,7 +683,7 @@ medianesDoctoratsUniv
     Concordia                   210.0
     Université de Sherbrooke    208.0
     École Polytechnique         186.0
-    UQTR                        153.0
+    UQTR                        153.5
     Name: nbPages, dtype: float64
 
 
@@ -733,10 +733,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x11622f320>,
+    [<matplotlib.text.Text at 0x117886278>,
      (0, 750),
-     <matplotlib.text.Text at 0x11671b320>,
-     <matplotlib.text.Text at 0x11956bb38>]
+     <matplotlib.text.Text at 0x1165ab978>,
+     <matplotlib.text.Text at 0x11788d048>]
 
 
 
@@ -794,6 +794,7 @@ medianesDoctoratsDiscipline
     Orientation                           217.0
     Génie de l'environnement              216.5
     Télécommunications                    207.0
+    Musique                               206.5
     Génie chimique                        204.0
     Génie industriel                      202.0
     Biotechnologie agricole               201.0
@@ -801,7 +802,6 @@ medianesDoctoratsDiscipline
     Génie mécanique                       199.0
     Génie physique                        199.0
     Agriculture et pêcheries              198.5
-    Musique                               197.0
     Ingénierie biomédicale                196.5
     Sciences de l'environnement           194.0
     Biologie                              190.0
@@ -858,10 +858,10 @@ boiteDoc.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x119b9ccc0>,
+    [<matplotlib.text.Text at 0x119705ba8>,
      (0, 750),
-     <matplotlib.text.Text at 0x11979cba8>,
-     <matplotlib.text.Text at 0x119774be0>]
+     <matplotlib.text.Text at 0x119722748>,
+     <matplotlib.text.Text at 0x119b59e10>]
 
 
 
@@ -900,24 +900,24 @@ maitrises.describe()
   <tbody>
     <tr>
       <th>count</th>
-      <td>40485.000000</td>
+      <td>40486.000000</td>
       <td>3.477800e+04</td>
-      <td>40485.000000</td>
-      <td>40485.000000</td>
+      <td>40486.000000</td>
+      <td>40486.000000</td>
     </tr>
     <tr>
       <th>mean</th>
-      <td>2007.034111</td>
+      <td>2007.033691</td>
       <td>8.790473e+06</td>
-      <td>133.284179</td>
-      <td>102.193034</td>
+      <td>133.282023</td>
+      <td>102.193672</td>
     </tr>
     <tr>
       <th>std</th>
-      <td>6.312315</td>
+      <td>6.312805</td>
       <td>1.820470e+07</td>
-      <td>54.082249</td>
-      <td>39.216650</td>
+      <td>54.083320</td>
+      <td>39.216376</td>
     </tr>
     <tr>
       <th>min</th>
@@ -1488,10 +1488,10 @@ boiteDoc.set(ylabel="Université",
 
 
 
-    [<matplotlib.text.Text at 0x11f60de80>,
+    [<matplotlib.text.Text at 0x117141b00>,
      (0, 350),
-     <matplotlib.text.Text at 0x11f5f7e10>,
-     <matplotlib.text.Text at 0x11f614898>]
+     <matplotlib.text.Text at 0x11e835ef0>,
+     <matplotlib.text.Text at 0x11717a470>]
 
 
 
@@ -1604,10 +1604,10 @@ boiteMait.set(ylabel="Discipline",
 
 
 
-    [<matplotlib.text.Text at 0x11ef83978>,
+    [<matplotlib.text.Text at 0x120ad29b0>,
      (0, 350),
-     <matplotlib.text.Text at 0x11ef66eb8>,
-     <matplotlib.text.Text at 0x11efb5828>]
+     <matplotlib.text.Text at 0x1202b3748>,
+     <matplotlib.text.Text at 0x1202b0978>]
 
 
 
