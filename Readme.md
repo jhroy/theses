@@ -691,7 +691,7 @@ medianesDoctoratsUniv
 -----
 Pour illustrer la distribution du nombre de pages des doctorats par université, le meilleur type de graphique est peut-être le *box&nbsp;plot*, qu'on peut traduire par **diagramme de quartiles**... ou ce que les Français ont baptisé des [boîtes à moustaches](https://fr.wikipedia.org/wiki/Bo%C3%AEte_%C3%A0_moustaches).
 
-![](http://www.statcan.gc.ca/edu/power-pouvoir/ch12/img/5214889_02-fra.gif)
+![](theses_files/diagramme.gif)
 
 Ces boîtes permettent d'afficher une distribution qui a été découpée en quartiles.<br>
 Les deuxième et troisième quartiles, ceux qui se trouvent de part et d'autre de la médiane, sont représentés par deux rectangles, les boîtes.<br>
