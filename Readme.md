@@ -2,6 +2,8 @@
 <h1 style="color:blue">Thèses et mémoires du Québec</h1>
 <h3>Quelques données sur les doctorats et maîtrises publiés dans les universités québécoises depuis les années 1990</h3>
 
+Démarche décrite [sur mon blogue, ici](http://jhroy.ca/2016/11/combien-de-pages-pour-une-these-ou-un-memoire/).
+
 <hr>
 
 <h4 style="color:blue">*Data on theses and dissertations published in Québec universities in the last 25 years*</h4>
